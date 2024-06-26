@@ -15,12 +15,12 @@ C. The main activity divided into seven parts in which students build a model fo
 
 * Part IV is a study of the effect of atmospheric CO2 on the pH of rainwater.  At the end of this sections the students will have made a plot of pH as a function of partial pressure of atmospheric $\mathrm{CO_2}$ and compared their experimental results with theory.  Some instructors may choose to stop here.
 
-* Parts V and VI build on the previous sections by considering first the solid $\mathrm{CaCO_3}$ only system (Part V) and then combining the carbon inputs of both atmospheric $\mathrm{CO_2}$ and solid calcium carbonate (Part VI).  This mixed system is complex and other Python functions for constrained non-linear least squares fitting are introduced.
+* Parts V and VI build on the previous sections by considering first the solid $\mathrm{CaCO_3}$ only system (Part V) and then combining the carbon inputs of both atmospheric carbon dioxide and solid calcium carbonate (Part VI).  This mixed system is complex and other Python functions for constrained non-linear least squares fitting are introduced.
 
-* Part VII takes into account the effects of temperature and ionic strength.  Due to the complexity of these calculations, a larger amount of the code is provided.  By the end of the notebook, students will construct a model for understanding the effect of atmospheric $\mathrm{CO_2}$ on the pH of oceans that are saturated with limestone.
+* Part VII takes into account the effects of temperature and ionic strength.  Due to the complexity of this system, a larger amount of the code is provided.  By the end of the notebook, students construct a model for understanding the effect of atmospheric $\mathrm{CO_2}$ on the pH of saltwater that is saturated with limestone.
 
 ## Usage:
-In most cases a "key" is provided so that instructors (or self-paced students) have access to fully working and complete code.  After considering the materials in the repository, you are encouraged to remove some of this provided code and allow for either supervised time within the lab or self-paced assignments to be completed outside of lab. The essential skills involved in writing and debugging a scipt can only be learned through doing.  
+In most cases a "key" is provided so that instructors (or self-paced students) have access to fully working and complete code.  After considering the materials in the repository, you are encouraged to remove some of this provided code and allow for  supervised time within the lab or self-paced assignments to be completed outside of lab. The essential skills involved in writing and debugging a scipt can only be learned through doing.  
 
 At our institution, The University of Portland, Python programming and other computational techniques are distributed across multiple instructors and subdisciplines.  The Physical Chemistry I lab is set up so that groups of students rotate through a variety of experiments during the semester performing them on different weeks.  This activity fits into our curriculum as follows:
 
