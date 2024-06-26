@@ -15,20 +15,20 @@ C. The main activity divided into seven parts in which students build a model fo
 
 * Part IV is a study of the effect of atmospheric $\mathrm{CO_2}$ on the pH of rainwater.  At the end of this section the students will have made a plot of pH as a function of partial pressure of atmospheric $\mathrm{CO_2}$ and compared their experimental results with theory.  Some instructors may choose to stop here.
 
-* Parts V and VI build on the previous sections by considering first the solid $\mathrm{CaCO_3}$ only system (Part V) and then combining the carbon inputs of both atmospheric carbon dioxide and solid calcium carbonate (Part VI).  This mixed system is complex and other Python functions for constrained non-linear least squares fitting are introduced.
+* Parts V and VI build on the previous sections by considering first the solid $\mathrm{CaCO_3}$ only system (Part V) and then combining the carbon inputs of both atmospheric carbon dioxide and solid calcium carbonate (Part VI).  This mixed system is complex, and other Python functions for constrained non-linear least squares fitting are introduced.
 
 * Part VII takes into account the effects of temperature and ionic strength.  Due to the complexity of this system, a larger amount of the code is provided.  By the end of the notebook, students construct a model for understanding the effect of atmospheric $\mathrm{CO_2}$ on the pH of saltwater that is saturated with limestone.
 
 ## Usage:
-In most cases a "key" is provided so that instructors (or self-paced students) have access to fully working and complete code.  After considering the materials in the repository, you are encouraged to remove some of this provided code and allow for  supervised time within the lab or self-paced assignments to be completed outside of lab. The essential skills involved in writing and debugging a scipt can only be learned through doing.  
+In most cases a "key" is provided so that instructors (or self-paced students) have access to fully working and complete code.  After considering the materials in the repository, you are encouraged to remove some of this provided code and allow for  supervised time within the lab or self-paced assignments to be completed outside of lab. The essential skills involved in writing and debugging a script can only be learned through doing.  
 
-At our institution, The University of Portland, Python programming and other computational techniques are distributed across multiple instructors and subdisciplines.  The Physical Chemistry I lab is set up so that groups of students rotate through a variety of experiments during the semester performing them on different weeks.  This activity fits into our curriculum as follows:
+At our institution, The University of Portland, Python programming and other computational techniques are distributed across multiple instructors and subdisciplines.  The Physical Chemistry I lab is set up so that groups of students rotate through a variety of experiments during the semester, performing them on different weeks.  This activity fits into our curriculum as follows:
 
-* Section A is completed during an early, introductory lab period with all students working on the same activity and little provided code. (2 hours)
+* Section A is completed during an early, introductory lab period with all students working on the same activity and little provided code. (1.5 - 2 hours)
 
 * Section B is completed as self-paced activity outside class time prior to a group rotating into this experiment (1 hour, most students have taken Analytical Chemistry and this material is familiar)
 
-* Section C parts I to III are completed along with pressurizing the chamber in the first lab period of a 2-week rotation. Students are writing the majority of the code themselves within the Colab notebook framework. (3 hours)  
+* Section C parts I to III are completed (along with the experimental work of pressurizing a chamber with $\mathrm{CO_2}$) in the first lab period of a 2-week rotation. Students are writing the majority of the code themselves within the Colab notebook framework. (3 hours)  
 
     * The self-paced activity about looping and plotting is completed outside class time between weeks one and two. (1 hour)
 
