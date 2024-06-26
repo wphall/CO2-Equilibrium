@@ -13,7 +13,7 @@ C. The main activity divided into seven parts in which students build a model fo
 
     * An optional introduction to looping in Python, storing large datasets as a Pandas dataframe, and plotting using Matplotlib with annotation and labeling. [Handling Data with Pandas and Matplotlib](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Handling_Data_with_Pandas_and_Matplotlib.ipynb)
 
-* Part IV is a study of the effect of atmospheric $\mathrm{CO_2}$ on the pH of rainwater.  At the end of this sections the students will have made a plot of pH as a function of partial pressure of atmospheric $\mathrm{CO_2}$ and compared their experimental results with theory.  Some instructors may choose to stop here.
+* Part IV is a study of the effect of atmospheric $\mathrm{CO_2}$ on the pH of rainwater.  At the end of this section the students will have made a plot of pH as a function of partial pressure of atmospheric $\mathrm{CO_2}$ and compared their experimental results with theory.  Some instructors may choose to stop here.
 
 * Parts V and VI build on the previous sections by considering first the solid $\mathrm{CaCO_3}$ only system (Part V) and then combining the carbon inputs of both atmospheric carbon dioxide and solid calcium carbonate (Part VI).  This mixed system is complex and other Python functions for constrained non-linear least squares fitting are introduced.
 
