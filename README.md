@@ -30,8 +30,8 @@ At our institution, The University of Portland, Python programming and other com
 
 * Section C parts I to III are completed along with pressurizing the chamber in the first lab period of a 2-week rotation. Students are writing the majority of the code themselves within the Colab notebook framework. (3 hours)  
 
-    * The self-paced activity about looping and plotting is completed as outside class time between weeks one and two. (1 hour)
+    * The self-paced activity about looping and plotting is completed outside class time between weeks one and two. (1 hour)
 
-* Section C parts IV to VII are completed along with measuring the experimental pH in the second lab period of a 2-week rotation. Much of the Python code is provided in later parts so that the students have good theoretical values to use in understanding the chemical system and preparing their lab reports. (3 hours)
+* Section C parts IV to VII are completed along with measuring the experimental pH in the second lab period of a 2-week rotation. Much of the Python code is provided in later parts so that the students have good theoretical values to use in understanding the chemical system and writing their lab reports. (3 hours)
 
 For instructors with a single lab period, we suggest providing more of the code in Section C part III (especially the section about [estimating each variable](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Student_Notebook_CO2_Equilibrium.ipynb#scrollTo=emwRJsJsz-cU)) and stopping the in-lab, live coding after section IV, the pH of rainwater.  It is still reasonable to provide a full version of parts V to VII from the [Instructor Notebook CO2 Equilibrium](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Instructor_Notebook_CO2_Equilibrium.ipynb) and asking questions about the ocean system in the lab report.
