@@ -36,7 +36,7 @@ At our institution, The University of Portland, Python programming and other com
 
 For instructors with a single lab period, we suggest providing more of the code in Section C part III (especially the section about [estimating each variable](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Student_Notebook_CO2_Equilibrium.ipynb#scrollTo=emwRJsJsz-cU)) and stopping the in-lab, live coding after section IV, the pH of rainwater.  It is still reasonable to provide a full version of parts V to VII from the [Instructor Notebook CO2 Equilibrium](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Instructor_Notebook_CO2_Equilibrium.ipynb) and asking questions about the ocean system in the lab report.
 
-## Schema
+## Schema:
 
 ```mermaid
 flowchart TB
