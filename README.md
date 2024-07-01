@@ -4,7 +4,7 @@ This repository is designed to be a customizable set of resources to facilitate 
 
 ## Repository Contents:
 
-A. An introduction to scientific Python programming using Google Colab along with the Numpy, Matplotlib, and Pandas libraries. [Python Introductory Activity](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Python_Introductory_Activity_KEY.ipynb) using provided [spectral data](https://github.com/wphall/CO2-Equilibrium/blob/6cc06acdc6d6ce9b7077940b030278e7fa9bd21c/Spectral%20Data.xlsx)
+A. An introduction to scientific Python programming using Google Colab along with the Numpy, Matplotlib, and Pandas libraries. [Python Introduction](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Python_Introductory_Activity_KEY.ipynb) using provided [spectral data](https://github.com/wphall/CO2-Equilibrium/blob/6cc06acdc6d6ce9b7077940b030278e7fa9bd21c/Spectral%20Data.xlsx)
 
 B. An introduction to solving equilibrium problems using mass balance, charge balance, and non-linear least squares. [Solving Equilibrium Problems Using Python](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Solving_Equilibrium_Problems_Using_Python.ipynb)
 
