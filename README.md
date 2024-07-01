@@ -35,3 +35,70 @@ At our institution, The University of Portland, Python programming and other com
 * Section C parts IV to VII are completed along with measuring the experimental pH in the second lab period of a 2-week rotation. Much of the Python code is provided in later parts so that the students have good theoretical values to use in understanding the chemical system and writing their lab reports. (3 hours)
 
 For instructors with a single lab period, we suggest providing more of the code in Section C part III (especially the section about [estimating each variable](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Student_Notebook_CO2_Equilibrium.ipynb#scrollTo=emwRJsJsz-cU)) and stopping the in-lab, live coding after section IV, the pH of rainwater.  It is still reasonable to provide a full version of parts V to VII from the [Instructor Notebook CO2 Equilibrium](https://colab.research.google.com/github/wphall/CO2-Equilibrium/blob/main/Instructor_Notebook_CO2_Equilibrium.ipynb) and asking questions about the ocean system in the lab report.
+
+## Schema
+
+```mermaid
+flowchart TB
+    P0(["Tutorial 1: Synchronous Python and Colab introduction"]) === I["Part I: Aqueous chemistry of carbon dioxide"]
+    I === II["Part II: Defining a system of seven equations"]
+    II === Given1[["provide code for initial estimates based on individual equilibria"]] & P1(["Tutorial 2: Equilibrium problems using least-squares"])
+    Given1 === III["Part III: Coding the carbon dioxide only system at one pressure"]
+    III === Given2[["provide code for loop and annotation comparing experiment to theory"]] & P2(["Tutorial 3: Looping, plotting, and annotation"])
+    Given2 ==== IV["Part IV: Calculating the pH of rainwater at different partial pressures"]
+    IV === StopSingle[["provide all remaining code, conclude single lab section"]] & Given3[["provide code for Kb1 of carbonate initial estimates"]] & Hint1>"Hint about Numpy's roots() function"]
+    Given3 === V["Part V: Coding the calcium carbonate only system at one pressure"]
+    V === Given4[["provide code for constrained least squares"]] & Hint2>"Hint about Scipy's's least_squares() function"]
+    Given4 === VI["Part VI: Coding the complete system at one pressure"]
+    VI === Given5[["provide code for temperature and salinity corrected equilibrium constants"]] & Hint3>"Hint about Dickson's paper on seawater chemistry"]
+    Given5 === Given6[["provide code for saltwater summary figure"]]
+    Hint3 === Hint4>"Hint about Matplotlib's GridSpec() and advanced annotation"]
+    Given6 === VII["Part VII: Calculating the pH of saltwater at different partial pressures"]
+    P1 === III
+    P2 === IV
+    Hint1 === V
+    Hint2 === VI
+    Hint4 === VII
+    style P0 fill:#2962FF,color:#000000,stroke:#000000
+    style I stroke:#000000,fill:#757575,color:#000000
+    style II stroke:#000000,fill:#757575,color:#000000
+    style Given1 fill:#00C853,color:#000000,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
+    style P1 fill:#2962FF,color:#000000,stroke:#000000
+    style III stroke:#000000,fill:#757575,color:#000000
+    style Given2 fill:#00C853,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style P2 stroke:#000000,fill:#2962FF,color:#000000
+    style IV stroke:#000000,color:#000000,fill:#757575
+    style StopSingle fill:#00C853,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style Given3 fill:#2962FF,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style V fill:#757575,color:#000000,stroke:#000000
+    style Given4 fill:#2962FF,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style VI fill:#757575,stroke:#000000,color:#000000
+    style Given5 fill:#2962FF,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style Given6 fill:#2962FF,color:#000000,stroke:#000000,stroke-width:4px,stroke-dasharray: 0
+    style VII fill:#757575,color:#000000,stroke:#000000
+    linkStyle 0 stroke:#2962FF,fill:none
+    linkStyle 1 stroke:#2962FF,fill:none
+    linkStyle 2 stroke:#00C853,fill:none
+    linkStyle 3 stroke:#2962FF,fill:none
+    linkStyle 4 stroke:#00C853,fill:none
+    linkStyle 5 stroke:#00C853,fill:none
+    linkStyle 6 stroke:#2962FF,fill:none
+    linkStyle 7 stroke:#00C853,fill:none
+    linkStyle 8 stroke:#00C853,fill:none
+    linkStyle 9 stroke:#2962FF,fill:none
+    linkStyle 10 stroke:#000000,fill:none
+    linkStyle 11 stroke:#2962FF,fill:none
+    linkStyle 12 stroke:#2962FF,fill:none
+    linkStyle 13 stroke:#000000,fill:none
+    linkStyle 14 stroke:#2962FF,fill:none
+    linkStyle 15 stroke:#2962FF,fill:none
+    linkStyle 16 stroke:#000000,fill:none
+    linkStyle 17 stroke:#2962FF,fill:none
+    linkStyle 18 stroke:#000000,fill:none
+    linkStyle 19 stroke:#2962FF,fill:none
+    linkStyle 20 stroke:#2962FF,fill:none
+    linkStyle 21 stroke:#2962FF,fill:none
+    linkStyle 22 stroke:#000000,fill:none
+    linkStyle 23 stroke:#000000,fill:none
+    linkStyle 24 stroke:#000000
+```
